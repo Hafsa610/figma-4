@@ -1,0 +1,1239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOM JUPITER</title>
+    <style>
+    /* Top Info Bar */
+    .top-info-bar {
+      background: #0074b7;
+      color: #fff;
+      font-size: 0.95rem;
+      padding: 6px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .logo img {
+      height: 32px;
+      width: 32px;
+      object-fit: contain;
+    }
+    .logo span {
+      font-weight: bold;
+      color: #2196f3;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-links li a {
+      text-decoration: none;
+      color: #222;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: color 0.2s;
+    }
+    .nav-links li a:hover,
+    .nav-links li a.active {
+      color: #2196f3;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      display: flex;
+      align-items: center;
+      background: #2196f3;
+      position: relative;
+      min-height: 500px;
+      color: #fff;
+      overflow: hidden;
+    }
+    .hero-content {
+      flex: 1;
+      padding: 60px 40px;
+      z-index: 2;
+    }
+    .hero-content h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+    .hero-content .highlight {
+      color: #ffc107;
+    }
+    .hero-content .normal {
+      color: #fff;
+    }
+    .hero-content p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      color: #e3e3e3;
+      max-width: 500px;
+    }
+    .get-started-btn {
+      display: inline-block;
+      background: #ffc107;
+      color: #222;
+      padding: 14px 32px;
+      border-radius: 25px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+    .get-started-btn:hover {
+      background: #ffb300;
+    }
+    .hero-image {
+      flex: 1;
+      position: relative;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 0 0 0 0;
+    }
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 60%;
+      height: 100%;
+      background: #fff;
+      opacity: 0.05;
+      border-top-right-radius: 60% 100%;
+      border-bottom-right-radius: 60% 100%;
+      z-index: 1;
+    }
+    @media (max-width: 900px) {
+      .top-info-bar, .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+      }
+      .nav-links {
+        gap: 16px;
+      }
+      .hero-section {
+        flex-direction: column;
+        min-height: 700px;
+      }
+      .hero-image, .hero-content {
+        width: 100%;
+        padding: 30px 20px;
+      }
+    }
+    </style>
+</head>
+<body>
+  <!-- Top Info Bar Start -->
+  <div class="top-info-bar">
+    <span>📍 Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051</span>
+    <span>📞 +99 (0) 101 0000 888</span>
+  </div>
+  <!-- Top Info Bar End -->
+
+  <!-- Navigation Bar Start -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="./image 1.png" alt="ECOM JUPITER" />
+      <span>ECOM JUPITER</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Our Blogs</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Navigation Bar End -->
+
+  <!-- Hero Section Start -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>
+        <span class="highlight">Helping Brands</span><br>
+        Thrive On Walmart.<br>
+        <span class="normal">One Seller at a Time.</span>
+      </h1>
+      <p>
+        Give your seller account the attention it deserves with E-Com Jupiter and build a truly successful business on the Walmart marketplace. We offer the best Walmart account management services for sellers, helping you achieve your profit goals conveniently.
+      </p>
+      <a href="#" class="get-started-btn">Get Started</a>
+    </div>
+    <div class="hero-image">
+      <img src="./Asset-316 1.png" alt="Handshake" />
+    </div>
+  </section>
+  <!-- Hero Section End -->
+   <!-- About Us Section Start -->
+<section class="about-section">
+  <div class="about-image-wrapper">
+    <img src="./shutterstock_547750285 1.png" alt="Team Meeting" class="about-image" />
+    <span class="circle circle-top"></span>
+    <span class="circle circle-bottom"></span>
+  </div>
+  <div class="about-content">
+    <span class="about-label">About Us</span>
+    <h2>
+      Take the headache out of<br>
+      your Walmart business<span class="about-highlight">!</span>
+    </h2>
+    <p>
+      E-Com Jupiter is a Walmart seller account management company committed to helping you navigate the marketplace.
+    </p>
+    <p>
+      Established in ----, we offer Walmart account management services to help our clients sell the best products online. Our crew consists of seasoned, devoted, and knowledgeable professionals who go the extra mile to translate your concept into profits. So, whether you are a big or small brand looking to launch, revive, or grow your Walmart presence, E-Com Jupiter’s innovative solutions can drive your business forward.
+    </p>
+    <a href="#" class="about-btn">Read More</a>
+  </div>
+</section>
+<!-- About Us Section End -->
+
+<style>
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 40px 0;
+  background: #fff;
+  border-bottom: 3px solid #2196f3;
+  gap: 40px;
+}
+.about-image-wrapper {
+  position: relative;
+  width: 380px;
+  min-width: 280px;
+  margin-left: 40px;
+}
+.about-image {
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+.circle {
+  position: absolute;
+  z-index: 1;
+  background: #2196f3;
+  border-radius: 50%;
+}
+.circle-top {
+  width: 40px;
+  height: 40px;
+  top: -20px;
+  left: -20px;
+}
+.circle-bottom {
+  width: 48px;
+  height: 48px;
+  border: 4px solid #ffc107;
+  background: transparent;
+  bottom: -24px;
+  right: -24px;
+}
+.about-content {
+  max-width: 520px;
+  margin-left: 30px;
+}
+.about-label {
+  color: #0074b7;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.about-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 18px 0;
+  color: #222;
+  line-height: 1.2;
+}
+.about-highlight {
+  color: #ffc107;
+}
+.about-content p {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+.about-btn {
+  display: inline-block;
+  background: #ffc107;
+  color: #222;
+  padding: 10px 28px;
+  border-radius: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+.about-btn:hover {
+  background: #ffb300;
+}
+@media (max-width: 900px) {
+  .about-section {
+    flex-direction: column;
+    padding: 30px 10px 20px 10px;
+    gap: 24px;
+  }
+  .about-image-wrapper {
+    margin-left: 0;
+    width: 100%;
+    max-width: 350px;
+  }
+  .about-content {
+    margin-left: 0;
+    max-width: 100%;
+  }
+}
+</style>
+<!-- Our Services Section Start -->
+<section class="services-section">
+  <div class="services-header">
+    <span class="services-label">Our Services</span>
+    <h2>What We Offer?</h2>
+    <p>We deliver a wide array of services to keep your Walmart business on track. Below, you can see our bestselling ones.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-icon">
+        <img src="./Group 14.png" alt="Setup Icon" />
+      </div>
+      <h3>Seller Account Setup and Approval</h3>
+      <p>Become a Walmart seller with E-Com Jupiter and go from local to global!</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <img src="./Group 15.png" alt="Management Icon" />
+      </div>
+      <h3>Seller Account Management</h3>
+      <p>Hand over your Walmart account management tasks to us and take your brand to the next level!</p>
+      <a href="#" class="service-link">Read More</a>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <img src="./Group 16.png" alt="Research Icon" />
+      </div>
+      <h3>Product Research</h3>
+      <p>Obtain our Walmart product research services and supercharge your sales!</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <img src="./Group 17.png" alt="Dropshipping Icon" />
+      </div>
+      <h3>Dropshipping</h3>
+      <p>Become a dropshipper on Walmart with E-Com Jupiter and get ahead in the competition!</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <img src="./Group 18 (1).png" alt="Listing Icon" />
+      </div>
+      <h3>Listing Optimization</h3>
+      <p>Optimize your Walmart listings and gain more conversions!</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <img src="./Group 19 (1).png" alt="WFS Icon" />
+      </div>
+      <h3>WFS Management</h3>
+      <p>Set up a Walmart fulfillment account and ship your customers’ needs at a fast speed!</p>
+    </div>
+    <div class="service-card">
+      <div class="service-icon">
+        <img src="./Group 20 (1).png" alt="Support Icon" />
+      </div>
+      <h3>Customer Support</h3>
+      <p>Forge better, lasting customer relationships through our exceptional customer support service.</p>
+    </div>
+  </div>
+</section>
+<!-- Our Services Section End -->
+
+<style>
+.services-section {
+  background: linear-gradient(135deg, #2196f3 0%, #0074b7 100%);
+  padding: 60px 0 50px 0;
+  color: #fff;
+  border-bottom: 3px solid #2196f3;
+}
+.services-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.services-label {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 8px;
+}
+.services-header h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #fff;
+}
+.services-header p {
+  color: #e3e3e3;
+  font-size: 1rem;
+  margin: 0 auto;
+  max-width: 600px;
+}
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px 36px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.service-card {
+  background: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  width: 210px;           /* Reduced from 270px */
+  min-height: 220px;      /* Reduced from 290px */
+  padding: 28px 14px 18px 14px; /* Reduced padding */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.service-icon {
+  background: #ffc107;
+  border-radius: 50%;
+  width: 90px;          /* Increased from 70px */
+  height: 90px;         /* Increased from 70px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -45px;           /* Adjusted for new size */
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.service-icon img {
+  width: 54px;          /* Increased from 38px */
+  height: 54px;         /* Increased from 38px */
+  object-fit: contain;
+}
+.service-card h3 {
+  margin-top: 62px;     /* Increased for new icon size */
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #222;
+}
+.service-card p {
+  font-size: 0.98rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+.service-link {
+  color: #ffbf00;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.98rem;
+  margin-top: 6px;
+  display: inline-block;
+  transition: color 0.2s;
+}
+.service-link:hover {
+  color: #0074b7;
+}
+@media (max-width: 1100px) {
+  .services-grid {
+    gap: 28px 18px;
+  }
+  .service-card {
+    width: 45vw;
+    min-width: 220px;
+    max-width: 320px;
+  }
+}
+@media (max-width: 900px) {
+  .services-section {
+    padding: 40px 0 30px 0;
+  }
+  .services-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .service-card {
+    width: 90vw;
+    min-width: 0;
+    max-width: 400px;
+  }
+}
+</style>
+<!-- Power of Walmart Section Start -->
+<section class="power-section">
+  <div class="power-container">
+    <div class="power-box">
+      <span class="power-circle power-circle-big"></span>
+      <span class="power-circle power-circle-small"></span>
+      <h2>
+        Tap Into the Immense<br>
+        Power of Walmart<span class="power-highlight">!</span>
+      </h2>
+      <p class="power-desc">
+        With over 100 million monthly visitors, Walmart is an ideal platform to access a pool of loyal customers. Leverage its massive brand power with E-Com Jupiter and sell your products quicker.
+      </p>
+      <a href="#" class="power-btn">Get Started</a>
+    </div>
+    <div class="power-image">
+      <img src="./Group 3.png" alt="Walmart Store" />
+    </div>
+  </div>
+</section>
+<!-- Power of Walmart Section End -->
+
+<style>
+.power-section {
+  background: #fff;
+  padding: 60px 0 0 0;
+  border-bottom: 3px solid #2196f3;
+}
+.power-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+.power-box {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  padding: 38px 38px 32px 38px;
+  width: 370px;
+  min-height: 280px;
+  position: relative;
+  margin-top: 30px;
+  margin-right: -60px;
+  z-index: 2;
+}
+.power-circle {
+  position: absolute;
+  background: transparent;
+  border-radius: 50%;
+  z-index: 3;
+}
+.power-circle-big {
+  width: 48px;
+  height: 48px;
+  border: 4px solid #ffc107;
+  top: -32px;
+  left: -32px;
+}
+.power-circle-small {
+  width: 16px;
+  height: 16px;
+  border: 3px solid #ffc107;
+  top: -12px;
+  left: 10px;
+}
+.power-box h2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #222;
+  line-height: 1.2;
+}
+.power-highlight {
+  color: #ffc107;
+}
+.power-desc {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 28px;
+  line-height: 1.5;
+}
+.power-btn {
+  display: inline-block;
+  background: #ffc107;
+  color: #222;
+  padding: 10px 28px;
+  border-radius: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+.power-btn:hover {
+  background: #ffb300;
+}
+.power-image {
+  flex: 1;
+  min-width: 320px;
+  margin-left: 0;
+  margin-top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.power-image img {
+  width: 420px;
+  max-width: 100%;
+  border-radius: 0 0 4px 0;
+  display: block;
+}
+@media (max-width: 1000px) {
+  .power-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .power-box {
+    margin: 0 0 24px 0;
+    width: 95vw;
+    max-width: 420px;
+  }
+  .power-image img {
+    width: 95vw;
+    max-width: 420px;
+  }
+}
+</style>
+<!-- Blog Section Start -->
+<section class="blog-section">
+  <div class="blog-header">
+    <h2>Our Blog</h2>
+    <p>
+      Read comments, news, expert opinions, and the latest updates from the e-commerce industry and become a pro seller at Walmart.
+    </p>
+  </div>
+  <div class="blog-grid">
+    <div class="blog-card">
+      <img src="./image 12.png" alt="Blog 1" class="blog-img" />
+      <div class="blog-content">
+        <span class="blog-date">December 1, 2022</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <a href="#" class="blog-btn">Read More</a>
+      </div>
+    </div>
+    <div class="blog-card">
+      <img src="./Walmart-delivery-truck-e1593371242561 1.png" alt="Blog 2" class="blog-img" />
+      <div class="blog-content">
+        <span class="blog-date">December 1, 2022</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <a href="#" class="blog-btn">Read More</a>
+      </div>
+    </div>
+    <div class="blog-card">
+      <img src="./image 13.png" alt="Blog 3" class="blog-img" />
+      <div class="blog-content">
+        <span class="blog-date">December 1, 2022</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        <a href="#" class="blog-btn">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Blog Section End -->
+
+<style>
+.blog-section {
+  background: linear-gradient(135deg, #2196f3 0%, #0074b7 100%);
+  padding: 60px 0 60px 0;
+  color: #fff;
+}
+.blog-header {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.blog-header h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.blog-header p {
+  color: #e3e3e3;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.blog-grid {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.blog-card {
+  background: #fff;
+  color: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  width: 300px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.blog-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.blog-content {
+  padding: 18px 20px 24px 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.blog-date {
+  font-size: 0.98rem;
+  color: #888;
+  margin-bottom: 10px;
+  display: block;
+}
+.blog-content p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 18px;
+}
+.blog-btn {
+  display: inline-block;
+  background: #ffc107;
+  color: #222;
+  padding: 10px 28px;
+  border-radius: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+.blog-btn:hover {
+  background: #ffb300;
+}
+@media (max-width: 1000px) {
+  .blog-grid {
+    gap: 20px;
+  }
+  .blog-card {
+    width: 90vw;
+    max-width: 340px;
+  }
+}
+@media (max-width: 700px) {
+  .blog-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+</style>
+<!-- Testimonials Section Start -->
+<section class="testimonials-section">
+  <div class="testimonials-header">
+    <span class="testimonials-label">TESTIMONIALS</span>
+    <h2>Our Happy Customers</h2>
+  </div>
+  <div class="testimonial-slider">
+    <button class="testimonial-arrow left">&#8592;</button>
+    <div class="testimonial-content">
+      <div class="testimonial-quote">
+        <span class="quote-bg"></span>
+        <span class="quote-icon">&#10077;</span>
+      </div>
+      <p class="testimonial-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.et dolore magna aliqua.
+      </p>
+      <div class="testimonial-author">
+        <span class="author-name">Yona Smith</span>
+        <span class="author-role">Business Owner</span>
+      </div>
+    </div>
+    <button class="testimonial-arrow right">&#8594;</button>
+  </div>
+</section>
+<!-- Testimonials Section End -->
+
+<style>
+.testimonials-section {
+  background: #fff;
+  padding: 60px 0 40px 0;
+  text-align: center;
+}
+.testimonials-header {
+  margin-bottom: 24px;
+}
+.testimonials-label {
+  color: #2196f3;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  display: block;
+  margin-bottom: 8px;
+}
+.testimonials-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0;
+}
+.testimonial-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.testimonial-arrow {
+  background: #e3f3fd;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.3rem;
+  color: #2196f3;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+.testimonial-arrow:hover {
+  background: #b3e0fc;
+}
+.testimonial-content {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial-quote {
+  position: relative;
+  margin-bottom: 16px;
+}
+.quote-bg {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background: #e3f3fd;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.quote-icon {
+  font-size: 3rem;
+  color: #2196f3;
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+}
+.testimonial-text {
+  font-size: 1rem;
+  color: #222;
+  margin-bottom: 22px;
+  line-height: 1.5;
+}
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.author-name {
+  font-weight: 700;
+  color: #222;
+  font-size: 1.05rem;
+}
+.author-role {
+  color: #ffc107;
+  font-size: 0.98rem;
+  margin-top: 2px;
+}
+@media (max-width: 700px) {
+  .testimonial-slider {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .testimonial-content {
+    margin: 0;
+    max-width: 95vw;
+  }
+}
+</style>
+<!-- Work Speaks Section Start -->
+<section class="work-speaks-section">
+  <h2>Our Work Speaks Louder Than Words!</h2>
+  <p>Find out which brands have gotten to the top with us.</p>
+  <a href="#" class="work-btn">Get Started</a>
+</section>
+<!-- Work Speaks Section End -->
+
+<style>
+.work-speaks-section {
+  background: #ffc037;
+  padding: 48px 0 38px 0;
+  text-align: center;
+  border-bottom: 4px solid #2196f3;
+}
+.work-speaks-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 14px;
+}
+.work-speaks-section p {
+  color: #222;
+  font-size: 1rem;
+  margin-bottom: 22px;
+}
+.work-btn {
+  display: inline-block;
+  background: #fff;
+  color: #222;
+  padding: 10px 32px;
+  border-radius: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  transition: background 0.2s, color 0.2s;
+}
+.work-btn:hover {
+  background: #f5f5f5;
+  color: #2196f3;
+}
+</style>
+<!-- Footer Start -->
+<footer class="main-footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="./image 1.png" alt="ECOM JUPITER" />
+      <span>ECOM JUPITER</span>
+    </div>
+    <ul class="footer-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Our Blogs</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="footer-contact">
+      <span>📍 Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051</span><br>
+      <span>📞 +99 (0) 101 0000 888</span>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 ECOM JUPITER. All rights reserved.
+  </div>
+</footer>
+<!-- Footer End -->
+
+<style>
+.main-footer {
+  background: #0074b7;
+  color: #fff;
+  padding: 38px 0 0 0;
+  font-size: 1rem;
+}
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.footer-logo img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.footer-links li a:hover {
+  color: #ffc107;
+}
+.footer-contact {
+  font-size: 0.98rem;
+  color: #e3e3e3;
+  line-height: 1.6;
+}
+.footer-bottom {
+  text-align: center;
+  padding: 18px 0 10px 0;
+  color: #e3e3e3;
+  font-size: 0.98rem;
+  border-top: 1px solid rgba(255,255,255,0.12);
+  margin-top: 28px;
+}
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    text-align: center;
+  }
+  .footer-logo {
+    justify-content: center;
+  }
+  .footer-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+/* ===================== Responsive Styles ===================== */
+@media (max-width: 1200px) {
+  .footer-container,
+  .services-grid,
+  .blog-grid,
+  .power-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .about-section,
+  .services-grid,
+  .power-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .about-image-wrapper,
+  .about-content,
+  .power-box,
+  .power-image img {
+    width: 95vw !important;
+    max-width: 420px;
+    margin-left: 0 !important;
+  }
+  .power-box {
+    margin-right: 0 !important;
+  }
+  .services-grid {
+    gap: 24px 0;
+  }
+  .service-card {
+    width: 90vw !important;
+    max-width: 340px;
+    min-width: 0;
+  }
+  .blog-card {
+    width: 90vw !important;
+    max-width: 340px;
+  }
+}
+@media (max-width: 900px) {
+  .top-info-bar,
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+  .nav-links {
+    gap: 16px;
+  }
+  .hero-section {
+    flex-direction: column;
+    min-height: 700px;
+    padding: 0 0 30px 0;
+  }
+  .hero-image,
+  .hero-content {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .about-section {
+    padding: 30px 10px 20px 10px;
+    gap: 24px;
+  }
+  .about-image-wrapper {
+    margin-left: 0;
+    width: 100%;
+    max-width: 350px;
+  }
+  .about-content {
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .services-section {
+    padding: 40px 0 30px 0;
+  }
+  .services-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .service-card {
+    width: 90vw !important;
+    min-width: 0;
+    max-width: 400px;
+  }
+  .power-section {
+    padding: 40px 0 0 0;
+  }
+  .power-box {
+    margin: 0 0 24px 0 !important;
+    width: 95vw !important;
+    max-width: 420px;
+  }
+  .power-image img {
+    width: 95vw !important;
+    max-width: 420px;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    text-align: center;
+  }
+  .footer-logo {
+    justify-content: center;
+  }
+  .footer-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+@media (max-width: 700px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+  .about-content h2,
+  .power-box h2,
+  .services-header h2,
+  .blog-header h2,
+  .testimonials-header h2,
+  .work-speaks-section h2 {
+    font-size: 1.3rem;
+  }
+  .blog-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+  .blog-card {
+    width: 98vw !important;
+    max-width: 98vw;
+  }
+  .testimonial-slider {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .testimonial-content {
+    margin: 0;
+    max-width: 95vw;
+  }
+  .work-speaks-section {
+    padding: 32px 0 24px 0;
+  }
+}
+@media (max-width: 500px) {
+  .top-info-bar,
+  .navbar,
+  .footer-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .hero-content,
+  .about-content,
+  .power-box,
+  .blog-content {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .service-card,
+  .blog-card {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .footer-logo img {
+    width: 28px;
+    height: 28px;
+  }
+  .footer-logo span {
+    font-size: 1rem;
+  }
+  .footer-links {
+    gap: 10px;
+    font-size: 0.95rem;
+  }
+  .footer-contact {
+    font-size: 0.92rem;
+  }
+}
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+</style>
+
+</body>
+</html>
